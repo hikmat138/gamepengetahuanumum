@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Pengetahuan Umum</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <script defer src="nama_pengguna.js"></script>
+</head>
+<body>
+  <!-- Tombol Navigasi Kanan -->
+  <div class="top-bar">
+    <div class="top-right-buttons" id="nav-buttons">
+      <img src="media/saya.png" alt="profil" class="btn-profil" data-menu="profil" width="50px">
+      <img src="media/information.png" alt="information" class="btn-information" data-menu="information" width="50px">
+    </div>
+  </div>
+
+  <!-- Container Utama -->
+  <div class="container">
+    <div class="judul-utama">
+      <h1>Game Pengetahuan Umum</h1>
+      <h2>Kelas 5 Sekolah Dasar</h2>
+    </div>
+
+    <div class="menu-wrapper">
+      <p class="judul-game">Klik tombol di bawah untuk memulai:</p>
+      <div class="menu-horizontal">
+        <div class="menu-item">
+          <img src="media/mulai.png" alt="Pengetahuan Umum" class="btn-pengetahuan" data-menu="pengetahuan">
+          <p class="label">PENGETAHUAN UMUM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Profil Pembuat -->
+  <div id="popup-profil">
+    <div class="popup-content">
+      <img src="media/profil.png" alt="Foto Profil">
+      <p> PROFIL PEMBUAT </p>
+      <p><strong>Nama:</strong> Hikmatullah, S.Pd</p>
+      <p><strong>Sekolah:</strong> SDN Ranca Tales</p>
+      <p><strong>Jabatan:</strong> Guru Kelas</p>
+      <button id="popup-close">Tutup</button>
+    </div>
+  </div>
+
+  <!-- Popup Input Nama Pengguna -->
+  <div id="popup-nama" class="popup-overlay">
+    <div class="popup-content">
+      <h3>Selamat datang!</h3>
+      <p>Silakan masukkan nama kamu:</p>
+      <input type="text" id="input-nama" placeholder="Nama lengkap" autocomplete="off" />
+      <button id="btn-simpan-nama">Mulai</button>
+    </div>
+  </div>
+</body>
+</html>

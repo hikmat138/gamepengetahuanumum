@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> SOAL PILIHAN GANDA</title>
+  <link rel="stylesheet" href="level1.css">
+  <script defer src="level1.js"></script>
+</head>
+<body>
+
+
+  <!-- Label Nama Pengguna -->
+  <div id="nama-pengguna-label"></div>
+
+  <!-- Navigasi Kanan Atas -->
+  <div class="top-bar">
+    <div class="top-right-buttons">
+      <button class="btn-reset-nama" id="reset-nama-btn">Ganti Nama</button>
+      <img src="media/information.png" class="btn-information" alt="info" />
+      <img src="media/saya.png" class="btn-profil" alt="profil" />
+    </div>
+  </div>
+
+  <!-- Judul Halaman -->
+  <div class="judul-utama">
+    <h1>SOAL PILIHAN GANDA IPA</h1>
+  </div>
+
+  <!-- Kontainer Soal -->
+  <div class="container">
+
+    <div class="soal-wrapper">
+        <div id="nomor-soal"></div>
+      <div id="soal-teks">Soal akan tampil di sini</div>
+      <div id="opsi-jawaban" class="opsi-jawaban"></div>
+      <button id="next-button" disabled>Soal Berikutnya</button>
+    </div>
+  </div>
+
+  <!-- Popup Skor Level -->
+  <div id="popup-skor" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+      <h3>Skor Level 1</h3>
+      <p id="hasil-skor">Skor kamu: 0/10</p>
+      <button id="lanjut-ke-level">Lanjut</button>
+    </div>
+  </div>
+
+  <!-- Popup Profil Pembuat -->
+  <div id="popup-profil" style="display:none;" class="popup-overlay">
+    <div class="popup-content">
+      <img src="media/profil.png" alt="Profil" style="width: 100px; border-radius: 50%; margin-bottom: 10px;">
+      <p><strong>Nama:</strong> Hikmatullah, S.Pd</p>
+      <p><strong>Sekolah:</strong> SDN Ranca Tales</p>
+      <p><strong>Jabatan:</strong> Guru Kelas</p>
+      <button id="popup-close">Tutup</button>
+    </div>
+  </div>
+
+  <!-- Script tambahan untuk tombol tutup profil -->
+  <script>
+    document.getElementById("popup-close")?.addEventListener("click", () => {
+      document.getElementById("popup-profil").style.display = "none";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Level 4 - Matematika</title>
+  <link rel="stylesheet" href="level1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet" />
+  <script defer src="level4.js"></script>
+</head>
+<body>
+
+  <!-- Label Nama Pengguna -->
+  <div id="nama-pengguna-label"></div>
+
+  <!-- Navigasi Kanan Atas -->
+  <div class="top-bar">
+    <div class="top-right-buttons">
+      <button class="btn-reset-nama" id="reset-nama-btn">Ganti Nama</button>
+      <img src="media/information.png" class="btn-information" alt="info" />
+      <img src="media/saya.png" class="btn-profil" alt="profil" />
+    </div>
+  </div>
+
+  <!-- Judul Halaman -->
+  <div class="judul-utama">
+    <h1>SOAL ISIAN SINGKAT (MATEMATIKA)</h1>
+  </div>
+
+  <!-- Kontainer Soal -->
+  <div class="container">
+    <div class="soal-wrapper">
+      <div id="nomor-soal"></div>
+      <div id="soal-teks">Soal akan tampil di sini</div>
+      <input type="text" id="jawaban-input" placeholder="Ketik jawaban di sini" />
+      <button id="next-button" disabled>Jawab</button>
+    </div>
+  </div>
+
+  <!-- Popup Skor -->
+  <div id="popup-skor" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+      <h3>Skor Level 4</h3>
+      <p id="hasil-skor">Skor kamu: 0/100</p>
+      <button id="ulangi-button">Ulangi</button>
+      <button id="lanjut-button">Lanjut</button>
+    </div>
+  </div>
+
+  <!-- Popup Petunjuk -->
+  <div id="popup-petunjuk" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+      <h3>Petunjuk Permainan</h3>
+      <p></p>
+      <button id="tutup-petunjuk">Tutup</button>
+    </div>
+  </div>
+
+  <!-- Popup Profil -->
+  <div id="popup-profil" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+      <img src="media/profil.png" alt="Profil" style="width: 100px; border-radius: 50%; margin-bottom: 10px;">
+      <p><strong>Nama:</strong> Hikmatullah, S.Pd</p>
+      <p><strong>Sekolah:</strong> SDN Ranca Tales</p>
+      <p><strong>Jabatan:</strong> Guru Kelas</p>
+      <button id="popup-close">Tutup</button>
+    </div>
+  </div>
+
+</body>
+</html>

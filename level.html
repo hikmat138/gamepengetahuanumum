@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pilih Level - Pengetahuan Umum</title>
+  <link rel="stylesheet" href="level.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <script defer src="level.js"></script>
+</head>
+<body>
+  <!-- Label Nama Pengguna -->
+  <div id="nama-pengguna-label"></div>
+
+  <!-- Tombol kanan atas -->
+  <div class="top-bar">
+    <div class="top-right-buttons">
+      <button class="btn-reset-nama">Ganti Nama</button>
+      <img src="media/information.png" alt="Info" class="btn-information" title="Petunjuk">
+      <img src="media/saya.png" alt="Profil" class="btn-profil" title="Profil">
+    </div>
+  </div>
+
+  <!-- Judul -->
+  <div class="judul-utama">
+    <h1>Pilih Level Tantangan</h1>
+  </div>
+
+  <!-- Menu Level -->
+  <div class="container">
+    <div class="level-buttons">
+      <button id="level1">Soal 1–10</button>
+      <button id="level2" disabled>Soal 11–20</button>
+      <button id="level3" disabled>Soal 21–30</button>
+      <button id="level4" disabled>Soal 31–40</button>
+    </div>
+  </div>
+<div id="popup-profil">
+    <div class="popup-content">
+      <img src="media/profil.png" alt="Foto Profil">
+      <p> PROFIL PEMBUAT </p>
+      <p><strong>Nama:</strong> Hikmatullah, S.Pd</p>
+      <p><strong>Sekolah:</strong> SDN Ranca Tales</p>
+      <p><strong>Jabatan:</strong> Guru Kelas</p>
+      <button id="popup-close">Tutup</button>
+    </div>
+  </div>
+  <!-- Popup Petunjuk -->
+  <div id="popup-petunjuk" class="popup-overlay">
+    <div class="popup-content">
+      <h3>Petunjuk Permainan</h3>
+      <p></p> <!-- Akan diisi oleh JS -->
+      <button id="tutup-petunjuk">Saya Mengerti</button>
+    </div>
+  </div>
+  
+</body>
+</html>

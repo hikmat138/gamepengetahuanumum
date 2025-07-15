@@ -47,16 +47,16 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   const soalMTK = [
-    { soal: "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 5 cm. Berapa cm² luasnya?", jawaban: "60" },
-    { soal: "Jumlah siswa laki-laki 20 orang dan perempuan 15 orang. Berapa jumlah seluruh siswa?", jawaban: "35" },
-    { soal: "Ibu membeli 3 kg gula. Setiap kg harganya Rp12.000. Berapa total yang harus dibayar?", jawaban: "36000" },
-    { soal: "Hasil dari -5 + 8 adalah:", jawaban: "3" },
-    { soal: "Keliling persegi dengan panjang sisi 9 cm adalah:", jawaban: "36" },
-    { soal: "Suhu di kulkas adalah -4°C. Jika dinaikkan 6 derajat, menjadi:", jawaban: "2" },
-    { soal: "Rata-rata dari 10, 20, dan 30 adalah:", jawaban: "20" },
-    { soal: "Jumlah sudut pada bangun segitiga adalah:", jawaban: "180" },
-    { soal: "Berat apel 1,5 kg. Jika dibeli 4 kg, berapa kali berat apel?", jawaban: "2.67" },
-    { soal: "Jumlah hari dalam 3 minggu adalah:", jawaban: "21" }
+    { soal: "Umur Andi 3 kali umur Dino. Jika umur Andi sekarang 24 tahun, berapa umur Dino?", jawaban: "8 tahun" },
+    { soal: "5 tahun lalu umur Rika 7 tahun. Berapa umur Rika sekarang?", jawaban: "12 tahun" },
+    { soal: "Ibu membeli 3 kantong jeruk. Setiap kantong berisi 6 jeruk. Berapa jumlah seluruh jeruk?", jawaban: "18" },
+    { soal: "Ari memiliki uang Rp10.000. Ia membeli 2 pensil seharga Rp2.500 per buah. Sisa uang Ari sekarang adalah ...", jawaban: "5000" },
+    { soal: "Umur Dita lebih tua dari Rani, dan Rani lebih tua dari Nia. Siapakah yang paling muda?", jawaban: "Nia" },
+    { soal: "Riko mulai belajar pukul 18.45 dan selesai pukul 19.30. Berapa menit Riko belajar?", jawaban: "45 menit" },
+    { soal: "Usia Lani dua kali usia adiknya. Jika jumlah umur mereka 18 tahun, berapa usia adik Lani?", jawaban: "6 tahun" },
+    { soal: "Sebuah kotak berisi 20 permen akan dibagikan sama rata ke 4 anak. Setiap anak mendapat ...", jawaban: " 5 permen" },
+    { soal: "Data nilai ulangan: 80, 85, 80, 90, 80, 85. Nilai yang paling sering muncul (modus) adalah ...", jawaban: "80" },
+    { soal: "Jumlah hari dalam 12 minggu adalah:", jawaban: "84" }
   ];
 
   const suaraBenar = new Audio("media/benar.mp3");

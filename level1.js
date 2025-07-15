@@ -22,16 +22,16 @@ function jedaAudioLainSaatMain(audio) {
 }
 
 const soalLevel1 = [
-  { pertanyaan: "Apa planet terbesar di tata surya?", pilihan: ["Bumi", "Mars", "Jupiter", "Venus"], jawaban: "Jupiter" },
-  { pertanyaan: "Planet manakah yang paling dekat dengan matahari?", pilihan: ["Merkurius", "Venus", "Mars", "Saturnus"], jawaban: "Merkurius" },
-  { pertanyaan: "Planet manakah yang dikenal memiliki cincin besar?", pilihan: ["Saturnus", "Uranus", "Neptunus", "Mars"], jawaban: "Saturnus" },
-  { pertanyaan: "Planet manakah yang disebut sebagai planet merah?", pilihan: ["Venus", "Mars", "Jupiter", "Neptunus"], jawaban: "Mars" },
-  { pertanyaan: "Berapakah jumlah planet di tata surya?", pilihan: ["7", "8", "9", "10"], jawaban: "8" },
-  { pertanyaan: "Planet manakah yang memiliki rotasi paling cepat?", pilihan: ["Jupiter", "Saturnus", "Bumi", "Venus"], jawaban: "Jupiter" },
-  { pertanyaan: "Planet manakah yang memiliki suhu terpanas?", pilihan: ["Merkurius", "Venus", "Mars", "Jupiter"], jawaban: "Venus" },
-  { pertanyaan: "Planet manakah yang paling jauh dari matahari?", pilihan: ["Neptunus", "Uranus", "Saturnus", "Pluto"], jawaban: "Neptunus" },
-  { pertanyaan: "Apa nama satelit alami Bumi?", pilihan: ["Phobos", "Deimos", "Europa", "Bulan"], jawaban: "Bulan" },
-  { pertanyaan: "Planet manakah yang memiliki hari terpanjang?", pilihan: ["Venus", "Merkurius", "Mars", "Uranus"], jawaban: "Venus" }
+  { pertanyaan: "Benda di bawah ini yang dapat ditarik oleh magnet adalah ...", pilihan: ["Karet gelang", "Pensil kayu", " Penghapus", "Paku besi"], jawaban: "Paku besi" },
+  { pertanyaan: "Kutub magnet yang berbeda jenis jika didekatkan akan ...", pilihan: ["Saling tolak-menolak", "Saling tarik-menarik", "Tidak bereaksi", "Melekat secara permanen"], jawaban: "Saling tarik-menarik" },
+  { pertanyaan: "Hubungan antara makhluk hidup dan lingkungan tempat tinggalnya disebut ...", pilihan: ["Habitat", "Komunitas", "Ekosistem", " Populasi"], jawaban: "Ekosistem" },
+  { pertanyaan: "Contoh interaksi antar makhluk hidup dalam ekosistem adalah ...", pilihan: ["Air mengalir ke sungai", "Tanaman tumbuh subur karena pupuk", "Burung memakan ulat di pohon", "Batu menghalangi aliran air"], jawaban: "Burung memakan ulat di pohon" },
+  { pertanyaan: "Makhluk hidup yang bertugas sebagai pengurai dalam jaring-jaring makanan adalah ...", pilihan: ["Rumput", "Kambing", "Elang", "Jamur"], jawaban: "Jamur" },
+  { pertanyaan: "Dalam jaring-jaring makanan, hewan pemakan tumbuhan disebut ...", pilihan: ["Karnivora", "Herbivora", "Omnivora", "Predator"], jawaban: "Herbivora" },
+  { pertanyaan: "Organ utama pada sistem pernapasan manusia adalah ...", pilihan: ["Jantung", "Usus", "Paru-paru", "Lambung"], jawaban: "Paru-paru" },
+  { pertanyaan: "Fungsi hidung dalam sistem pernapasan adalah untuk ...", pilihan: ["Mengatur detak jantung", "Mencerna makanan", "Menyaring udara yang masuk", "Menyerap oksigen ke darah"], jawaban: "Menyaring udara yang masuk" },
+  { pertanyaan: "Proses pencernaan makanan dimulai dari ...", pilihan: ["Usus Besar", "Lambung", "Mulut", "Kerongkongan"], jawaban: "Mulut" },
+  { pertanyaan: "Enzim dalam air ludah berfungsi untuk ...", pilihan: ["Menghaluskan makanan secara mekanis", " Menghancurkan makanan dengan asam", "Memecah makanan secara kimia", "Menyaring racun dari makanan"], jawaban: "Memecah makanan secara kimia" }
 ];
 
 let indexSoal = 0;

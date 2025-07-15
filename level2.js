@@ -22,16 +22,16 @@ function jedaAudioLainSaatMain(audio) {
 }
 
 const soalLevel2 = [
-  { pertanyaan: "Apa nama ibu kota Indonesia?", jawaban: "Jakarta" },
-  { pertanyaan: "Apa nama pulau terbesar di Indonesia?", jawaban: "Kalimantan" },
+  { pertanyaan: "Indonesia disebut negara agraris karena sebagian besar penduduknya bekerja di bidang ?", jawaban: "pertanian" },
+  { pertanyaan: "Nelayan adalah contoh pekerjaan manusia yang tinggal di daerah?", jawaban: "Pantai" },
   { pertanyaan: "Apa nama presiden pertama Indonesia?", jawaban: "Soekarno" },
-  { pertanyaan: "Apa lambang negara Indonesia?", jawaban: "Garuda" },
-  { pertanyaan: "Apa nama mata uang Indonesia?", jawaban: "Rupiah" },
-  { pertanyaan: "Kapan Indonesia merdeka?", jawaban: "17 Agustus 1945" },
-  { pertanyaan: "Apa nama lagu kebangsaan Indonesia?", jawaban: "Indonesia Raya" },
+  { pertanyaan: "Kegiatan ekonomi yang menghasilkan barang disebut kegiatan?", jawaban: " produksi" },
+  { pertanyaan: "Laut, sungai, dan hutan adalah contoh sumber daya alam yang ada di ...", jawaban: "lingkungan sekitar" },
+  { pertanyaan: "Indonesia disebut negara maritim karena memiliki wilayah laut yang sangat ...", jawaban: "luas" },
+  { pertanyaan: "Kegiatan menjual hasil pertanian di pasar termasuk dalam kegiatan ekonomi berupa ...", jawaban: "distribusi" },
   { pertanyaan: "Apa nama provinsi paling timur Indonesia?", jawaban: "Papua" },
-  { pertanyaan: "Siapa pahlawan wanita dari Aceh?", jawaban: "Cut Nyak Dien" },
-  { pertanyaan: "Apa warna bendera Indonesia?", jawaban: "Merah Putih" }
+  { pertanyaan: "Orang yang membuat barang seperti meja, kursi, dan lemari disebut ...", jawaban: "Pengrajin" },
+  { pertanyaan: " Kegiatan membeli barang dari produsen dan menjualnya kembali disebut ...", jawaban: "perdagangan" }
 ];
 
 let indexSoal = 0;
